@@ -4,7 +4,7 @@
 <div class="section" id="user-section">
     <div id="user-detail" class="dropdown">
         <div class="avatar" onclick="toggleDropdown()">
-            <img src="assets/img/sample/avatar/avatar1.jpg" alt="avatar" class="imaged w64 rounded">
+            <img src="assets/img/sample/avatar/avatar1.jpg" alt="avatar" class="imaged w64 rounded-sm">
         </div>
         <div id="user-info">
             <h2 id="user-name">{{ Auth::user()->name }}</h2>
